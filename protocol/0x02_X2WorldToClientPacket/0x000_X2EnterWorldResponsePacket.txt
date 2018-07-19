@@ -1,1 +1,15 @@
-[body]word	//reasonbyte	//gmdword	//scword	//spqword	//wf[wp]h(reason)c(gm)d(sc)h(sp)q(wf)
+[body]
+word   //type
+word   //reason
+byte   //gm
+dword  //sc
+word   //sp
+qword  //wf
+dword  //tz
+word   //pubKeySize
+pubKey //pubKey 260 байт
+dword  //natAddr
+word   //natPort
+
+[wp]
+h(reason)c(gm)d(sc)h(sp)q(wf)d(tz)h(pubKeySize)s(pubKey)d(natAddr)h(natPort)

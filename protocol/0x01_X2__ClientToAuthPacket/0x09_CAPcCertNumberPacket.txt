@@ -1,1 +1,2 @@
-[body]word size; char[size]	//num
+[body]
+word size; char[size]	//num

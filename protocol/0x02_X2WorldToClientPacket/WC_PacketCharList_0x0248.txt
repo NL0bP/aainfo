@@ -1,0 +1,115 @@
+[body]
+byte   ///last 1
+byte   ///count 1, цикл (герои), если героев нет, то пакет на этом байте заканчивается!
+       {
+dword  ///type 4
+       ///size.name
+byte   ///CharRace 1
+byte   ///CharGender 1
+byte   ///level 1
+dword  ///health 4
+dword  ///mana 4
+dword  ///zone_id 4
+dword  ///type 4
+string //size.factionName
+dword  //type 4
+dword  //family 4
+dword  //validFlags 4
+       {7 раз, предметы на герое?
+dword  //type 4
+qword  //id 8
+byte   //type 1
+byte   //flags 1
+dword  //stackSize 4
+byte   //detailType 1 (switch)
+byte   //durability 1
+word   //chargeCount 2
+qword  //chargeTime 8
+word   //scaledA 2
+word   //scaledB 2
+       //{4 раза
+byte   //   pish 1
+byte[4]  //   pisc 4
+       //}
+qword  //creationTime 8
+dword  //lifespanMins 4
+dword  //type 4
+byte   //worldId 1
+qword  //unsecureDateTime 8
+qword  //unpackDateTime 8
+qword  //chargeUseSkillTime 8
+       }
+       {8 раз
+dword  //type 4
+dword  //type 4
+dword  //type 4
+dword  //flags 4
+       }
+       {3 раза
+byte   //ability 1
+       }
+qword  //x 8
+qword  //y 8
+dword  //z 4
+byte   //ext 1
+dword  //type 4
+dword  //type 4
+dword  //defaultHairColor 4
+dword  //twoToneHair 4
+dword  //twoToneFirstWidth 4
+dword  //twoToneSecondWidth 4
+dword  //type 4
+dword  //type 4
+dword  //type 4
+dword  //weight 4
+dword  //type 4
+dword  //weight 4
+dword  //scale 4
+dword  //rotate 4
+word   //moveX 2
+word   //moveY 2
+byte   //pish 1
+byte[5]  //pisc 5
+byte   //pish 1
+byte[2]  //pisc 2
+byte   //pish 1
+byte[3]  //pisc 3
+       {6 раз
+dword  //weight 4
+       }
+dword  //weight 4
+dword  //lip 4
+dword  //leftPupil 4
+dword  //rightPupil 4
+dword  //eyebrow 4
+dword  //deco 4
+string //size.modifiers, 128 байт
+word   //laborPower 2, очки работы
+qword  //lastLaborPowerModified 8
+word   //deadCount 2
+qword  //deadTime 8
+dword  //rezWaitDuration 4
+qword  //rezTime 8
+dword  //rezPenaltyDuration 4
+qword  //lastWorldLeaveTime 8
+qword  //moneyAmount 8
+qword  //moneyAmount 8
+word   //crimePoint 2
+dword  //crimeRecord 4
+word   //crimeScore 2
+qword  //deleteRequestedTime  8
+qword  //transferRequestedTime 8
+qword  //deleteDelay 8
+dword  //consumedLp 4
+qword  //bmPoint 8, монеты дару
+qword  //moneyAmount 8
+qword  //moneyAmount 8
+byte   //autoUseAApoint 1
+dword  //prevPoint 4
+dword  //point 4
+dword  //gift 4
+qword  //updated 8
+byte   //forceNameChange 1
+qword  //highAbilityRsc 4
+       }
+

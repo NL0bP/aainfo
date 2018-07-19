@@ -1,1 +1,4 @@
-[body]dword	//idword	//xdword	//y
+[body]
+dword	//i
+dword	//x
+dword	//y

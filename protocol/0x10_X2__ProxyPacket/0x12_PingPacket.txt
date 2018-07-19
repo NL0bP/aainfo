@@ -1,1 +1,4 @@
-[body]qword(datetime)	//tmqword(datetime)	//whendword	//local
+[body]
+qword(datetime)	//tm
+qword(datetime)	//when
+dword	        //local

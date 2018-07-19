@@ -1,1 +1,5 @@
-[body]dword	//totaldword	//sizedword	//indexword size; char[size]	//data
+[body]
+dword	//total
+dword	//size
+dword	//index
+word size; char[size]	//data

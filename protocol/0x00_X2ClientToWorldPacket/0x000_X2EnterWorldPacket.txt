@@ -1,1 +1,13 @@
-[body]dword	//p_fromdword	//p_todword	//accountIddword	//cookiedword	//zoneIdbyte	//tbqword	//revision
+[body]
+word	//?
+dword	//p_from
+dword	//p_to
+qword	//accountId
+dword	//cookie
+dword	//zoneId
+word	//tb
+dword	//revision
+dword   //index
+
+[wp]
+h(psize)h(type)h(ID)h(__)d(p_from)d(p_to)q(accountId)d(cookie)d(zoneId)h(tb)d(revision)d(index)

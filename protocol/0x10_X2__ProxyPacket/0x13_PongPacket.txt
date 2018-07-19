@@ -1,1 +1,7 @@
-[body]qword(datetime)	//tmqword(datetime)	//whenqword(datetime)	//elapsedqword(datetime)	//remotedword	//localdword	//world
+[body]
+qword(datetime)	//tm
+qword(datetime)	//when
+qword(datetime)	//elapsed
+qword(datetime)	//remote (TickCount * 1000);
+dword	        //local  
+dword	        //world  (TickCount);

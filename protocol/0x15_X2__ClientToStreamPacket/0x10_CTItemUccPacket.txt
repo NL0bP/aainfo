@@ -1,1 +1,4 @@
-[body]dword	//typedword	//num	;max 0x1Cqword[num]	//itemId
+[body]
+dword	//type
+dword	//num	;max 0x1C
+qword[num]	//itemId

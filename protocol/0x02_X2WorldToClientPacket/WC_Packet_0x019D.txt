@@ -1,0 +1,8 @@
+[body]
+byte   //protectFaction 1
+qword  //time 8
+dword  //year 4
+dword  //month 4
+dword  //day 4
+dword  //hour 4
+dword  //min 4

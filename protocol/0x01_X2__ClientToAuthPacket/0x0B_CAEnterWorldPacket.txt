@@ -1,1 +1,3 @@
-[body]qword	//flagbyte	//wid
+[body]
+qword	//flag
+byte	//wid

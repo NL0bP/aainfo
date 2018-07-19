@@ -1,1 +1,7 @@
-[body]dword	//p_fromdword	//p_todword	//aidbyte	//widdword	//cookieword size; char[size];	//mac
+[body]
+dword	//p_from
+dword	//p_to
+dword	//aid
+byte	//wid
+dword	//cookie
+word size; char[size];	//mac

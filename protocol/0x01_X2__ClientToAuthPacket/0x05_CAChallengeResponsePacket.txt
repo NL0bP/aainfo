@@ -1,1 +1,3 @@
-[body]dword	//chword size; char[size]	//pw
+[body]
+dword	//ch
+word size; char[size]	//pw

@@ -1,1 +1,5 @@
-[body]qword	//typebyte	//statusdword	//count ;max 0xAAdword[count]	//lost
+[body]
+qword	//type
+byte	//status
+dword	//count ;max 0xAA
+dword[count]	//lost

@@ -1,1 +1,2 @@
-[body]dword	//state
+[body]
+dword	//state
