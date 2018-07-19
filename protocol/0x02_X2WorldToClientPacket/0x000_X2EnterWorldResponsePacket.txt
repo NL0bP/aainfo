@@ -7,7 +7,7 @@ word   //sp
 qword  //wf
 dword  //tz
 word   //pubKeySize
-pubKey //pubKey 260 αΰις
+pubKey //pubKey 260 Π±Π°ΠΉΡ‚
 dword  //natAddr
 word   //natPort
 
