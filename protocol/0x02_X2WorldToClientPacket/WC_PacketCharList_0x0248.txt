@@ -1,6 +1,6 @@
 [body]
 byte   ///last 1
-byte   ///count 1, цикл (герои), если героев нет, то пакет на этом байте заканчивается!
+byte   ///count 1, С†РёРєР» (РіРµСЂРѕРё), РµСЃР»Рё РіРµСЂРѕРµРІ РЅРµС‚, С‚Рѕ РїР°РєРµС‚ РЅР° СЌС‚РѕРј Р±Р°Р№С‚Рµ Р·Р°РєР°РЅС‡РёРІР°РµС‚СЃСЏ!
        {
 dword  ///type 4
        ///size.name
@@ -15,7 +15,7 @@ string //size.factionName
 dword  //type 4
 dword  //family 4
 dword  //validFlags 4
-       {7 раз, предметы на герое?
+       {7 СЂР°Р·, РїСЂРµРґРјРµС‚С‹ РЅР° РіРµСЂРѕРµ?
 dword  //type 4
 qword  //id 8
 byte   //type 1
@@ -27,7 +27,7 @@ word   //chargeCount 2
 qword  //chargeTime 8
 word   //scaledA 2
 word   //scaledB 2
-       //{4 раза
+       //{4 СЂР°Р·Р°
 byte   //   pish 1
 byte[4]  //   pisc 4
        //}
@@ -39,13 +39,13 @@ qword  //unsecureDateTime 8
 qword  //unpackDateTime 8
 qword  //chargeUseSkillTime 8
        }
-       {8 раз
+       {8 СЂР°Р·
 dword  //type 4
 dword  //type 4
 dword  //type 4
 dword  //flags 4
        }
-       {3 раза
+       {3 СЂР°Р·Р°
 byte   //ability 1
        }
 qword  //x 8
@@ -74,7 +74,7 @@ byte   //pish 1
 byte[2]  //pisc 2
 byte   //pish 1
 byte[3]  //pisc 3
-       {6 раз
+       {6 СЂР°Р·
 dword  //weight 4
        }
 dword  //weight 4
@@ -83,8 +83,8 @@ dword  //leftPupil 4
 dword  //rightPupil 4
 dword  //eyebrow 4
 dword  //deco 4
-string //size.modifiers, 128 байт
-word   //laborPower 2, очки работы
+string //size.modifiers, 128 Р±Р°Р№С‚
+word   //laborPower 2, РѕС‡РєРё СЂР°Р±РѕС‚С‹
 qword  //lastLaborPowerModified 8
 word   //deadCount 2
 qword  //deadTime 8
@@ -101,7 +101,7 @@ qword  //deleteRequestedTime  8
 qword  //transferRequestedTime 8
 qword  //deleteDelay 8
 dword  //consumedLp 4
-qword  //bmPoint 8, монеты дару
+qword  //bmPoint 8, РјРѕРЅРµС‚С‹ РґР°СЂСѓ
 qword  //moneyAmount 8
 qword  //moneyAmount 8
 byte   //autoUseAApoint 1
